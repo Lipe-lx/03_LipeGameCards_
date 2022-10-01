@@ -2,9 +2,36 @@ import "./style.css";
 
 function CardGame() {
     return `
-        <artical class="card-game">
-            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman pink body"
-        </artical>    
+    <div class="table">
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>
+                        <artical class="card-game">
+                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
+                        </artical>
+                    </th>
+                    <th>
+                        <artical class="card-game">
+                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
+                        </artical>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        <artical class="card-game">
+                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
+                        </artical>
+                    </th>
+                    <th>
+                        <artical class="card-game">
+                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
+                        </artical>
+                    </th>
+                </tr>
+            </tbody>                  
     `;
 }
 
