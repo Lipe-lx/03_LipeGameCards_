@@ -7,7 +7,7 @@ function BoardGame(amountCards) {
     //Utilização do metodo repeat para multiplicar as cartas
     const $htmlContentBoardGame = $htmlCardGame.repeat(amountCards);
 
-    return `
+    return /*html*/`
         <section class="board-game">
             ${$htmlContentBoardGame}
         </section>
