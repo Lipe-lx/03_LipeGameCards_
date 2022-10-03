@@ -1,15 +1,17 @@
-import CardGame from "./src/components/CardGame";
 
 import"./src/styles/settings/colors.css";
 import "./src/styles/generic/reset.css";
 import"./src/styles/elements/base.css";
+import BoardGame from "./src/objects/BoardGame";
 
 //Boa pratica: iniciar variavel com $ quando for uma referencia da tela.
 const $root = document.querySelector("#root");
+//Parametro BoardGame=> Quantidade de cartas na mesa
+const $htmlBoardGame = BoardGame(3);
 
-const $htmlCardGame = CardGame();
-console.log($htmlCardGame);
+
+console.log($htmlBoardGame);
 
 
-$root.insertAdjacentHTML("beforeend", $htmlCardGame);
+$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
 

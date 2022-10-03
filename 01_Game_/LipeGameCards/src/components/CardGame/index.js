@@ -11,27 +11,8 @@ function CardGame() {
                             <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
                         </artical>
                     </th>
-                    <th>
-                        <artical class="card-game">
-                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
-                        </artical>
-                    </th>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>
-                        <artical class="card-game">
-                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
-                        </artical>
-                    </th>
-                    <th>
-                        <artical class="card-game">
-                            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman"
-                        </artical>
-                    </th>
-                </tr>
-            </tbody>                  
+            </thead>                              
     `;
 }
 
