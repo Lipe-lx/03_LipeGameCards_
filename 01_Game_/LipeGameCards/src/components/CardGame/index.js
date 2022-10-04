@@ -1,9 +1,9 @@
 import "./style.css";
 
-function CardGame() {
+function CardGame(icon="Woman_pink", alt="Woman") {
     return /*html*/`            
         <artical class="card-game">
-            <img src="images/Woman_ddc_pink.gif" width="130px" height="160px" alt="Woman">
+            <img src="images/${icon}.gif" width="130px" height="160px" alt="${alt}">
         </artical>                                 
     `;
 }
