@@ -1,9 +1,9 @@
 .card-game {
     display: flex;
     justify-content:center;
-    align-items: center;    
-    width: 130px;
-    height: 160px;
+    align-items: center;
+    width: var(--width);
+    height: var(--heigth);  
     background-color: var(--color-roxinho);
     border: 8px solid var(--color-floral-white);
 }
