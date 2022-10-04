@@ -1,7 +1,7 @@
 import CardGame from "../CardGame";
 import "./style.css";
 
-function CardFrontBack() {
+function CardFrontBack(icon, altIcon) {
     window.CardFrontBack = {}
     window.CardFrontBack.handleClick = (event) => {
         //event.target coleta o evento de click no component identificando
@@ -18,7 +18,7 @@ function CardFrontBack() {
                 ${CardGame()}
             </div>
             <div class="card -back">
-                ${CardGame("shark_dancing", "shark_dancing")}
+                ${CardGame(icon, altIcon)}
             </div>
         </article>
     `
