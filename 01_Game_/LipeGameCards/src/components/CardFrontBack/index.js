@@ -6,9 +6,10 @@ function CardFrontBack(icon, altIcon) {
     window.CardFrontBack.handleClick = (event) => {
         //event.target coleta o evento de click no component identificando
         const $origin = event.target;
-        //.closest onde houver o click no component buscara a classe pai ".card-front-back"
+        //.closest onde houver o click no component buscara na classe pai ".card-front-back"
         const $cardFrontBack = $origin.closest(".card-front-back");
-        //.toggle adiciona e remoce a classe -active (a que faz girar a carta)
+        //.toggle adiciona e remove a classe -active (a que mostra uma carta virada)
+        //virando duas as cartas desviram, .toglle é funcao especifica para isso
         $cardFrontBack.classList.toggle("-active");
     }
  

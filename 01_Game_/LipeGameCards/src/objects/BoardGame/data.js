@@ -14,8 +14,7 @@ const cards = [{
 {
     icon:"clap_baby",
     altIcon:"Tapinha no popo ^.^"
-}
-,
+},
 {
     icon:"ass_party",
     altIcon:"Festa de bumbum! ^.^"

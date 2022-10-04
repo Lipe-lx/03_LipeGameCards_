@@ -3,7 +3,7 @@ import "./style.css"
 import CardFrontBack from "../../components/CardFrontBack";
 import cards from "./data";
 
-function BoardGame(amountCards) {
+function BoardGame() {
     window.boardGame = {};
     window.boardGame.handleClick = () => {
         const $boardGame = document.querySelector(".board-game");

@@ -1,11 +1,11 @@
 .arrow-down {
     position: absolute;
     top:2px;
-    transform: translateX(-50px);
+    transform: translateX(-45px);
     /*aplicando animacao na mudanca de player*/
     transition: transform 200ms ease-in-out;
 }
 
 .arrow-down[data-currentPlayer="2"] {
-    transform: translateX(50px);
+    transform: translateX(45px);
 }
