@@ -1,9 +1,10 @@
+import cards from "../../objects/BoardGame/data";
 import "./style.css";
 
-function CardGame(icon="Woman_pink", alt="Woman") {
+function CardGame(icon="Woman_pink", alt="Woman", data="woman") {
     return /*html*/`            
-        <artical class="card-game">
-            <img src="images/${icon}.gif" width="130px" height="160px" alt="${alt}">
+        <artical class="card-game" data-framework="${data}">
+            <img class="imagem" src="images/${icon}.gif" width="130px" height="160px" alt="${alt}">
         </artical>                                 
     `;
 }

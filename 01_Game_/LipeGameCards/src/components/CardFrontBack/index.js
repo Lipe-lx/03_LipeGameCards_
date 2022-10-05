@@ -9,7 +9,7 @@ function CardFrontBack(icon, altIcon) {
         //.closest onde houver o click no component buscara na classe pai ".card-front-back"
         const $cardFrontBack = $origin.closest(".card-front-back");
         //.toggle adiciona e remove a classe -active (a que mostra uma carta virada)
-        //virando duas as cartas desviram, .toglle é funcao especifica para isso
+        //virar as cartas apos duas estiverem viradas, .toglle é funcao especifica para isso
         $cardFrontBack.classList.toggle("-active");
     }
  

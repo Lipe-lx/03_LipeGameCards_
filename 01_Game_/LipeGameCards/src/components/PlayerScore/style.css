@@ -17,7 +17,7 @@
 }
 
 .player-score[data-points="1"] > .pointer:first-child {
-    background-color: var(--color-verdinscore);
+    background-color: var(--color-verdin-score);
 }
 
 .player-score[data-points="2"] {
@@ -25,9 +25,9 @@
 }
 
 .player-score[data-points="2"] > .pointer:nth-child(n+2) {
-    background-color: var(--color-verdinscore);
+    background-color: var(--color-verdin-score);
 }
 
 .player-score[data-points="3"] > .pointer {
-    background-color: var(--color-verdinscore);
+    background-color: var(--color-verdin-score);
 }
