@@ -8,20 +8,20 @@ const cards = [{
     altIcon:"Tubaraozinho dançando ^.^"
 },
 {
-    icon:"clap_baby",
-    altIcon:"Tapinha no popo ^.^"
+    icon:"lula",
+    altIcon:"Molusco dancing ^.^"
 },
 {
-    icon:"clap_baby",
-    altIcon:"Tapinha no popo ^.^"
+    icon:"lula",
+    altIcon:"Molusco dancing ^.^"
 },
 {
-    icon:"ass_party",
-    altIcon:"Festa de bumbum! ^.^"
+    icon:"face_rotate",
+    altIcon:"Pig man! ^.^"
 },
 {
-    icon:"ass_party",
-    altIcon:"Festa de bumbum! ^.^"
+    icon:"face_rotate",
+    altIcon:"Pig man! ^.^"
 }];
 
 export default cards;
