@@ -1,33 +1,33 @@
 //Dados das cartas, aqui se faz a escolha das imagens atraves do seu nome de arquivo
 const cards = [{
-    data: "shark_dancing",
     icon:"shark_dancing",
-    altIcon:"Tubaraozinho dançando ^.^"
+    altIcon:"Tubaraozinho dançando ^.^",
+    data: "shark_dancing"
 },
 {
-    data: "shark_dancing",
     icon:"shark_dancing",
-    altIcon:"Tubaraozinho dançando ^.^"
+    altIcon:"Tubaraozinho dançando ^.^",
+    data: "shark_dancing"
 },
 {
-    data: "lula",
     icon:"lula",
-    altIcon:"Molusco dancing ^.^"
+    altIcon:"Molusco dancing ^.^",
+    data: "lula"
 },
 {
-    data: "lula",
     icon:"lula",
-    altIcon:"Molusco dancing ^.^"
+    altIcon:"Molusco dancing ^.^",
+    data: "lula"
 },
 {
-    data: "face_rotate",
     icon:"face_rotate",
-    altIcon:"Pig man! ^.^"
+    altIcon:"Pig man! ^.^",
+    data: "face_rotate"
 },
 {
-    data: "face_rotate",
     icon:"face_rotate",
-    altIcon:"Pig man! ^.^"
+    altIcon:"Pig man! ^.^",
+    data: "face_rotate"
 }];
 
 export default cards;

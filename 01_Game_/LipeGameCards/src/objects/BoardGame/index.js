@@ -23,7 +23,7 @@ function BoardGame() {
         }
     }
     //criando um mapa para passarmos por toda a lista de cartas disponiveis
-    const $htmlCardsList = cards.map((card) => CardFrontBack(card.icon, card.altIcon));
+    const $htmlCardsList = cards.map((card) => CardFrontBack(card.icon, card.altIcon, card.data));
     const $htmlCards = $htmlCardsList.join("")
 
     return /*html*/`

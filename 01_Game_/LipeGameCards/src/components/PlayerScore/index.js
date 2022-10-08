@@ -11,5 +11,5 @@ function PlayerScore(points = 0) {
         </ol>
     `;
 }
-export default PlayerScore;
 
+export default PlayerScore;
